@@ -1,0 +1,58 @@
+.activeUser {
+  display: flex;
+  flex-direction: row;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 16px;
+  gap: 4px;
+}
+
+.userInfoName {
+  color: #202225;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 130%;
+}
+
+.userInfoStatus {
+  color: #a1abc9;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  padding-right: 3px;
+}
+
+.online {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.avaStatusBlock {
+  /* background-color:darkgoldenrod; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+  .userInfo {
+    display: none;
+  }
+
+  .avaStatusBlock {
+    margin-right: 24px;
+  }
+}

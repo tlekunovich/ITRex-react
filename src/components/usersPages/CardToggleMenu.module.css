@@ -1,0 +1,71 @@
+.moreInf {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.moreInfBlock {
+  border: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moreInfBlockActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9faff;
+  border: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.moreInfMenu {
+  width: 272px;
+  height: 128px;
+  position: absolute;
+  background-color: white;
+  top: 45px;
+  right: 0;
+  left: -215px;
+  border-radius: 8px;
+  filter: drop-shadow(0px 4px 40px rgba(118, 136, 187, 0.16));
+}
+.moreInfMenuItem {
+  border-radius: 6px;
+  height: 40px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  color: rgba(32, 34, 37, 1);
+  cursor: pointer;
+}
+.moreInfMenuItem:hover {
+  background-color: #f9faff;
+}
+.moreInfMenuItemR:hover {
+  background-color: #f9faff;
+}
+.moreInfMenuItemR {
+  color: rgba(255, 37, 103, 1);
+  border-radius: 6px;
+  height: 40px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  cursor: pointer;
+}
